@@ -1,64 +1,64 @@
-$accent:#2B4074;
-$accenthover:#4565b8;
-$paddingcontainer320:0 20px;
-$paddingcontainer640:0 30px;
-$paddingcontainer1024:0 40px;
-$paddingcontainer1360:0 60px;
-%flex{display: flex;
-justify-content: space-between;
-align-items: center;}
-html
-{box-sizing: border-box;}
-*,*::after,*::before
-{
-    margin:0;
-    padding:0;
-    box-sizing: inherit;
+$accent: #2b4074;
+$accenthover: #4565b8;
+$paddingcontainer320: 0 20px;
+$paddingcontainer640: 0 30px;
+$paddingcontainer1024: 0 40px;
+$paddingcontainer1360: 0 60px;
+%flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-body
-{
-    color:#000;
-    font-family:'Dosis', 'Roboto','Roboto Condensed', sans-serif; 
+html {
+  box-sizing: border-box;
 }
-img
-{max-width: 100%;
-height: auto;
-object-fit: cover;}
-a
-{
-    text-decoration: none;
-    color: inherit;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
-button
-{cursor: pointer;
-border: none;
-background-color: transparent;}
-.container
-{width:100%;
-padding:$paddingcontainer320;
-margin: 0 auto;}
-@media screen and (min-width:640px)
-{.container
-    {
-    padding:$paddingcontainer640;
-    }
-
+body {
+  color: #000;
+  font-family: "Roboto", "Roboto Condensed", "Dosis", sans-serif;
 }
-@media screen and (min-width:1024px)
-{.container
-    {
-    padding:$paddingcontainer1024;
-    }
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-@media screen and (min-width:1360px)
-{.container
-    {
-    padding:$paddingcontainer1360;
-    }
+a {
+  text-decoration: none;
+  color: inherit;
 }
-ul li
-{
-    background: transparent;
-    border: none;
-    list-style: none;
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.container {
+  width: 100%;
+  padding: $paddingcontainer320;
+  margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+  .container {
+    padding: $paddingcontainer640;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: $paddingcontainer1024;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .container {
+    padding: $paddingcontainer1360;
+  }
+}
+ul li {
+  background: transparent;
+  border: none;
+  list-style: none;
 }

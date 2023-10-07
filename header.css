@@ -8,7 +8,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -16,7 +18,7 @@ html {
 
 body {
   color: #000;
-  font-family: 'Dosis', 'Roboto','Roboto Condensed', sans-serif;
+  font-family: "Roboto", "Roboto Condensed", "Dosis", sans-serif;
 }
 
 img {
@@ -64,7 +66,7 @@ ul li {
 }
 
 .header {
-  background-color: #2B4074;
+  background-color: #2b4074;
 }
 .header__inner {
   padding: 7px 0;
@@ -91,8 +93,8 @@ ul li {
   transform: translate(-50%, -50%);
   width: 50%;
   height: 2px;
-  background-color: #2B4074;
-  box-shadow: 0 8px 0 0 #2B4074, 0 -8px 0 0 #2B4074;
+  background-color: #2b4074;
+  box-shadow: 0 8px 0 0 #2b4074, 0 -8px 0 0 #2b4074;
 }
 
 @media screen and (min-width: 640px) {
