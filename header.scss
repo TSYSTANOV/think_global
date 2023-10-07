@@ -1,0 +1,36 @@
+@import "var.scss";
+.header
+{background-color: $accent;
+    &__inner{
+        @extend  %flex;
+        padding: 7px 0;
+    width: 100%;
+    };
+    &__logo{max-width: 100px;
+        max-height: 66px;};
+}
+.menu__btn
+{width:40px;
+height:40px;
+background-color: #FFF;
+border-radius: 5px;
+border:none;
+position: relative;
+&::before
+{content:"";
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:50%;
+    height:2px;
+    background-color: $accent;
+    box-shadow: 0 8px 0 0 $accent, 0 -8px 0 0 $accent;
+}
+}
+@media screen and (min-width:640px)
+{
+    .header__inner{
+        padding: 17px 0;
+    }
+}
