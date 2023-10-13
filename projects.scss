@@ -1,0 +1,27 @@
+@import "var";
+.projects
+{
+    background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0.00) 100%);
+    padding:20px 0 40px 0;
+    &__title
+    {
+        color: #FFF;
+text-align: center;
+font-family: Roboto Condensed;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 70px;
+position: relative;
+&::before
+{content:"";
+position: absolute;
+background-color: #fff;
+bottom:-25px;
+left:50%;
+transform: translateX(-50%);
+width:50px;
+height:8px;}
+    }
+}

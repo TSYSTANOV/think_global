@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  color: #000;
+  font-family: "Roboto", "Roboto Condensed", "Dosis", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+ul li {
+  background: transparent;
+  border: none;
+  list-style: none;
+}
+
+.projects {
+  background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+  padding: 20px 0 40px 0;
+}
+.projects__title {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 70px;
+  position: relative;
+}
+.projects__title::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 8px;
+}/*# sourceMappingURL=projects.css.map */
