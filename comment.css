@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  color: #000;
+  font-family: "Roboto", "Roboto Condensed", "Dosis", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+ul li {
+  background: transparent;
+  border: none;
+  list-style: none;
+}
+
+.comment {
+  padding: 165px 0 85px 0;
+  position: relative;
+}
+.comment__quote {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.comment__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.comment__text {
+  color: #797979;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 108.333% */
+  margin-bottom: 20px;
+}
+
+.comment__text-accent {
+  font-weight: 700;
+  color: #2b4074;
+}
+
+.comment__autor {
+  color: #4A4A4A;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.comment__wrap .slick-dots {
+  bottom: -40px;
+}
+
+@media screen and (min-width: 640px) {
+  .comment__text {
+    font-size: 32px;
+    margin-bottom: 40px;
+    line-height: 34px;
+  }
+  .comment__autor {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .comment__text {
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .comment__text {
+    max-width: 775px;
+    margin-bottom: 45px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .comment__text {
+    max-width: 870px;
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=comment.css.map */
