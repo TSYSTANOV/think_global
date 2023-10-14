@@ -48,6 +48,7 @@ letter-spacing: 2px;
 .comment__wrap .slick-dots 
 {
     bottom:-40px;
+
 }
 @media screen and (min-width:640px)
 {
@@ -74,6 +75,15 @@ margin-bottom: 35px;}
     .comment__text
 {max-width: 775px;
 margin-bottom: 45px;}
+.comment
+{
+    padding-bottom: 200px;
+}
+.comment__wrap .slick-dots 
+{
+    bottom:-80px;
+
+}
 }
 @media screen and (min-width:1350px)
 {
